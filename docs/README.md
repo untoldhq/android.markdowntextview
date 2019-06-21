@@ -3,6 +3,9 @@
 [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-brightgreen.svg?style=flat)](https://github.com/untoldhq/android.markdowntextview/blob/master/LICENSE)
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat)](https://github.com/untoldhq/android.markdowntextview)
 
+![screenshot](https://raw.githubusercontent.com/untoldhq/android.markdowntextview/master/docs/images/Screenshot_1561155122.png)
+
+
 This specialized [TextView][textview] can process markdown features introduced by a set of regular expression match and replace strategies. The two strategies are:
 
 - Match and replace on match.
