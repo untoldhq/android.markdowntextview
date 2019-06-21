@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ styles.xml
+  ~ markdowntextview
+  ~
+  ~ Created by Alberto Martinez on 06/17/19.
+  ~ Copyright © 2019 Untold Studio. All rights reserved.
+  -->
+
+<resources>
+
+    <style name="MarkdownTextView" parent="@android:style/Widget.TextView">
+
+        <item name="markdownHorizontalPadding">0dp</item>
+        <item name="markdownVerticalPadding">0dp</item>
+
+        <item name="colorInlineCodeText">@android:color/primary_text_dark</item>
+        <item name="colorBlockquoteText">@android:color/primary_text_light</item>
+
+        <item name="bgTextDrawable">@android:color/darker_gray</item>
+        <item name="bgTextDrawableLeft">@android:color/darker_gray</item>
+        <item name="bgTextDrawableMid">@android:color/darker_gray</item>
+        <item name="bgTextDrawableRight">@android:color/darker_gray</item>
+
+
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ attrs.xml
+  ~ markdowntextview
+  ~
+  ~ Created by Alberto Martinez on 06/17/19.
+  ~ Copyright © 2019 Untold Studio. All rights reserved.
+  -->
+
+<resources>
+    <declare-styleable name="MarkdownTextView">
+
+        <attr name="markdownHorizontalPadding" format="dimension"/>
+        <attr name="markdownVerticalPadding" format="dimension"/>
+
+        <attr name="colorInlineCodeText" format="color"/>
+        <attr name="colorBlockquoteText" format="color"/>
+
+        <attr name="bgTextDrawable" format="reference"/>
+        <attr name="bgTextDrawableLeft" format="reference"/>
+        <attr name="bgTextDrawableMid" format="reference"/>
+        <attr name="bgTextDrawableRight" format="reference"/>
+
+    </declare-styleable>
+</resources>

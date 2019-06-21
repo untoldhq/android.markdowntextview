@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Markdown</string>
+    <string name="action_done">Done</string>
+    <string name="action_save">Save</string>
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:elevation="@dimen/vertical">
+        <studio.untold.MarkdownTextView android:id="@+id/text_app_title"
+                                        style="@android:style/TextAppearance.Medium"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        tools:text="Markdown"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:paddingEnd="@dimen/horizontal"
+        android:paddingStart="@dimen/horizontal"
+        android:paddingBottom="@dimen/vertical_4x"
+        android:paddingTop="@dimen/vertical_4x"
+        android:clipToPadding="false">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView
+                        android:id="@+id/text_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical"
+                        tools:text="Hello World!"
+                        android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute"/>
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView style="@style/SampleMarkdownTheme"
+                                                    android:id="@+id/text_2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingEnd="@dimen/horizontal"
+                                                    android:paddingStart="@dimen/horizontal"
+                                                    android:paddingBottom="@dimen/vertical"
+                                                    android:paddingTop="@dimen/vertical"
+                                                    tools:text="Hello World!"
+                                                    android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView
+                        android:id="@+id/text_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical"
+                        tools:text="Hello World!"
+                        android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView style="@style/SampleMarkdownTheme"
+                                                    android:id="@+id/text_4"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingEnd="@dimen/horizontal"
+                                                    android:paddingStart="@dimen/horizontal"
+                                                    android:paddingBottom="@dimen/vertical"
+                                                    android:paddingTop="@dimen/vertical"
+                                                    tools:text="Hello World!"
+                                                    android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView
+                        android:id="@+id/text_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical"
+                        tools:text="Hello World!"
+                        android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView style="@style/SampleMarkdownTheme"
+                                                    android:id="@+id/text_6"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingEnd="@dimen/horizontal"
+                                                    android:paddingStart="@dimen/horizontal"
+                                                    android:paddingBottom="@dimen/vertical"
+                                                    android:paddingTop="@dimen/vertical"
+                                                    tools:text="Hello World!"
+                                                    android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/horizontal_2x"
+                    android:layout_marginStart="@dimen/horizontal_2x"
+                    android:layout_marginBottom="@dimen/vertical_2x"
+                    android:layout_marginTop="@dimen/vertical_2x"
+                    android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView
+                        android:id="@+id/text_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/horizontal"
+                        android:paddingStart="@dimen/horizontal"
+                        android:paddingBottom="@dimen/vertical"
+                        android:paddingTop="@dimen/vertical"
+                        tools:text="Hello World!"
+                        android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/horizontal_2x"
+                android:layout_marginStart="@dimen/horizontal_2x"
+                android:layout_marginBottom="@dimen/vertical_2x"
+                android:layout_marginTop="@dimen/vertical_2x"
+                android:backgroundTint="@color/cardview_light_background">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/horizontal"
+                    android:paddingStart="@dimen/horizontal"
+                    android:paddingBottom="@dimen/vertical"
+                    android:paddingTop="@dimen/vertical">
+                    <studio.untold.MarkdownTextView style="@style/SampleMarkdownTheme"
+                                                    android:id="@+id/text_8"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingEnd="@dimen/horizontal"
+                                                    android:paddingStart="@dimen/horizontal"
+                                                    android:paddingBottom="@dimen/vertical"
+                                                    android:paddingTop="@dimen/vertical"
+                                                    tools:text="Hello World!"
+                                                    android:foreground="?attr/selectableItemBackground" tools:ignore="UnusedAttribute" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

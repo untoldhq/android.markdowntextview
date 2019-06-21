@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="SampleMarkdownTheme" parent="MarkdownTextView">
+        <item name="markdownHorizontalPadding">@dimen/horizontal</item>
+        <item name="markdownVerticalPadding">@dimen/vertical</item>
+
+        <item name="colorInlineCodeText">@color/colorAccent</item>
+        <item name="colorBlockquoteText">@color/colorPrimaryDark</item>
+
+        <item name="bgTextDrawable">@drawable/rounded_text_bg</item>
+        <item name="bgTextDrawableLeft">@drawable/rounded_text_bg_left</item>
+        <item name="bgTextDrawableMid">@drawable/rounded_text_bg_mid</item>
+        <item name="bgTextDrawableRight">@drawable/rounded_text_bg_right</item>
+
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+</resources>

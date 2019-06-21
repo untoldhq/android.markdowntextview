@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="vertical_small">3dp</dimen>
+    <dimen name="vertical">6dp</dimen>
+    <dimen name="vertical_1_5x">9dp</dimen>
+    <dimen name="vertical_2x">12dp</dimen>
+    <dimen name="vertical_3x">18dp</dimen>
+    <dimen name="vertical_4x">24dp</dimen>
+    <dimen name="vertical_6x">36dp</dimen>
+    <dimen name="vertical_8x">48dp</dimen>
+
+    <dimen name="horizontal_small">4dp</dimen>
+    <dimen name="horizontal">8dp</dimen>
+    <dimen name="horizontal_1_5x">12dp</dimen>
+    <dimen name="horizontal_2x">16dp</dimen>
+    <dimen name="horizontal_3x">24dp</dimen>
+    <dimen name="horizontal_4x">32dp</dimen>
+    <dimen name="horizontal_6x">48dp</dimen>
+    <dimen name="horizontal_8x">60dp</dimen>
+
+    <dimen name="radius_text_block">4dp</dimen>
+
+</resources>

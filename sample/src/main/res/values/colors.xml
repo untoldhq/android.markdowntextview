@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/untold_pink</color>
+    <color name="colorPrimaryDark">@color/untold_purple</color>
+    <color name="colorAccent">@color/untold_red</color>
+
+    <color name="untold_red">#eb5367</color>
+    <color name="untold_pink">#ff87c0</color>
+    <color name="untold_purple">#ae67b7</color>
+
+    <color name="dk_grey">#333333</color>
+    <color name="lt_grey">#f1f1f1</color>
+
+    <color name="rounded_text_bg">@color/lt_grey</color>
+    <color name="rounded_text_bg_border">#d8d8d8</color>
+
+    <color name="navigation_bar_color">@android:color/black</color>
+
+</resources>
